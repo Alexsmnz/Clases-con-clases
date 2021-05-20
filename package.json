@@ -1,0 +1,35 @@
+{
+  "name": "clases-con-clases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexsmnz/Clases-con-clases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexsmnz/Clases-con-clases/issues"
+  },
+  "homepage": "https://github.com/Alexsmnz/Clases-con-clases#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "ava": {
+		"extensions": {
+			"ts": "module"
+		},
+		"nonSemVerExperiments": {
+			"configurableModuleFormat": true
+		},
+		"nodeArguments": [
+			"--loader=ts-node/esm"
+		]
+	}
+}
